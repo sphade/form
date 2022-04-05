@@ -1,0 +1,34 @@
+{
+  "name": "fatllama-app",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "@heroicons/react": "^1.0.5",
+    "@mui/material": "^5.4.4",
+    "@reduxjs/toolkit": "^1.8.0",
+    "axios": "^0.26.0",
+    "firebase": "^9.6.8",
+    "json-server": "^0.17.0",
+    "next": "12.0.10",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-firebase-hooks": "^5.0.3",
+    "react-query": "^3.34.16",
+    "react-redux": "^7.2.6",
+    "swr": "^1.2.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.10",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.22"
+  }
+}
